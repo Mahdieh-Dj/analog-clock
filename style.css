@@ -28,7 +28,6 @@ body {
   border: 2vmin solid white;
 }
 
-/* highlight at top left of black outline */
 .hour-img:after {
   content: "";
   width: 105%;
@@ -68,7 +67,6 @@ body {
   bottom: 50%;
   border-radius: 6px;
   transform-origin: bottom;
-  /*transform: rotate(90deg);*/
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   max-width: 150px;
   max-height: 150px;
@@ -106,7 +104,6 @@ body {
   background: transparent;
   border-left: 20px solid #000;
   border-right: 20px solid #000;
-  /* transform-origin: right bottom; */
   transform-origin: left;
   top: 50%;
   left: 50%;
